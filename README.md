@@ -4,6 +4,8 @@ Set of URI normalization rules used within the [ACDH-CD](https://www.oeaw.ac.at/
 
 Provides Python 3 and PHP bindings.
 
+Rules are stored as a JSON in the `UriNormRules/rules.json` file.
+
 # Installation
 
 ## Python
