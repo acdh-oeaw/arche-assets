@@ -1,0 +1,21 @@
+{
+    "name": "acdh-oeaw/uri-norm-rules",
+    "description": "A data package providing rules for the https://github.com/acdh-oeaw/uriNormalizer",
+    "keywords": [],
+    "homepage": "https://github.com/acdh-oeaw/UriNormRules",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateusz Żółtak",
+            "email": "mzoltak@oeaw.ac.at"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "acdhOeaw\\": "AcdhUriNormRules"
+        }
+    }
+}
