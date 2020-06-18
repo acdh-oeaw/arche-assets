@@ -18,6 +18,8 @@ jobs:
         sed -i -e "s/version=\".*\"/version=\"$RELEASE\"/" setup.py
         echo $RELEASE
         cat setup.py
+    - name: deps
+      run: pip install --user wheel
     - name: build
       run: python3 setup.py sdist bdist_wheel
 #    - uses: pypa/gh-action-pypi-publish@master
