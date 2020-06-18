@@ -15,7 +15,7 @@ jobs:
     - name: config
       run: |
         RELEASE=${GITHUB_REF##*/}
-        sed -i -e "s/version=.*/version=\"$RELEASE\"/" setup.py
+        sed -i -e "s/version=\".*\"/version=\"$RELEASE\"/" setup.py
         echo $RELEASE
         cat setup.py
     - name: build
