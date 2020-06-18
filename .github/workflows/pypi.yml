@@ -1,8 +1,8 @@
 name: pypi
 
 on: push
-#  release:
-#    types: [created, edited]
+  release:
+    types: created
 
 jobs:
   publish:
@@ -22,10 +22,10 @@ jobs:
       run: pip install --user wheel
     - name: build
       run: python3 setup.py sdist bdist_wheel
-#    - uses: pypa/gh-action-pypi-publish@master
-#      with:
-#        password: ${{ secrets.test_pypi_password }}
-#        repository_url: https://test.pypi.org/legacy/
-#    - uses: pypa/gh-action-pypi-publish@master
-#      with:
-#        password: ${{ secrets.pypi_password }}
+    - uses: pypa/gh-action-pypi-publish@master
+      with:
+        password: ${{ secrets.test_pypi_password }}
+        repository_url: https://test.pypi.org/legacy/
+    - uses: pypa/gh-action-pypi-publish@master
+      with:
+        password: ${{ secrets.pypi_password }}
