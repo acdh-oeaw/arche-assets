@@ -4,7 +4,7 @@
       "replace" : "https://chronontology.dainst.org/period/\\2"
    },
    {
-      "match" : "^https?://([^.]*[.])?d-nb[.]info/gnd/([0-9]+-[0-9]+)$",
+      "match" : "^https?://([^.]*[.])?d-nb[.]info/gnd/([-A-Z0-9]+)/?$",
       "replace" : "https://d-nb.info/gnd/\\2"
    },
    {
@@ -20,8 +20,8 @@
       "replace" : "https://n2t.net/ark:/99152/\\2"
    },
    {
-      "match" : "^https?://([^.]*[.])?orcid[.]org/([0-9]{4})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$",
-      "replace" : "https://orcid.org/\\2-\\3-\\4-\\5"
+      "match" : "^https?://([^.]*[.])?orcid[.]org/([-A-Z0-9]+)/?$",
+      "replace" : "https://orcid.org/\\2"
    },
    {
       "match" : "^https?://([^.]*[.])?pleiades[.]stoa[.]org/places/([0-9]+)(/.*)?$",
