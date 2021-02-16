@@ -3,3 +3,6 @@
 /dist
 /composer.lock
 /vendor
+env
+.tox
+*.pyc
