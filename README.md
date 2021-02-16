@@ -20,8 +20,14 @@ Rules are stored as a JSON in the `UriNormRules/rules.json` file.
   ```
 * Use with
   ```Python
-  from AcdhUriNormRules import *
-  print(AcdhUriNormRules.getRules())
+  from AcdhUriNormRules import get_rules, get_normalized_uri
+  print(AcdhUriNormRules.get_rules())
+
+  wrong_id = "http://sws.geonames.org/1232324343/linz.html"
+
+  good_id = get_normalized_uri(wrong_id)
+  print(good_id)
+  # "https://www.geonames.org/1232324343"
   ```
 
 ## PHP
