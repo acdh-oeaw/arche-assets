@@ -1,14 +1,17 @@
-# UriNormRules
+# Arche Assets
 
 [![PyPI version](https://badge.fury.io/py/acdh-uri-norm-rules.svg)](https://badge.fury.io/py/acdh-uri-norm-rules)
-[![Latest Stable Version](https://poser.pugx.org/acdh-oeaw/uri-norm-rules/v/stable)](https://packagist.org/packages/acdh-oeaw/uri-norm-rules)
-[![License](https://poser.pugx.org/acdh-oeaw/uri-norm-rules/license)](https://packagist.org/packages/acdh-oeaw/uri-norm-rules)
+[![Latest Stable Version](https://poser.pugx.org/acdh-oeaw/arche-assets/v/stable)](https://packagist.org/packages/acdh-oeaw/arche-assets)
+[![License](https://poser.pugx.org/acdh-oeaw/arche-assets/license)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 
-Set of URI normalization rules used within the [ACDH-CD](https://www.oeaw.ac.at/acdh/).
+Set of static assets used (mainly) for ARCHE data preprocessing:
 
-Provides Python 3 and PHP bindings.
+* URI normalization rules used within the [ACDH-CD](https://www.oeaw.ac.at/acdh/).\
+  (stored in `AcdhArcheAssets/uriNormRules.json`)
+* Description of input data formats accepted by the [ARCHE](https://arche.acdh.oeaw.ac.at).\
+  (stored in `AcdhArcheAssets/formats.json`)
 
-Rules are stored as a JSON in the `UriNormRules/rules.json` file.
+The repository provides also Python 3 and PHP bindings for accessing those assets.
 
 # Installation & usage
 
@@ -34,10 +37,13 @@ Rules are stored as a JSON in the `UriNormRules/rules.json` file.
 
 * Install using using [composer](https://getcomposer.org/doc/00-intro.md):
   ```bash
-  composer require acdh-oeaw/uri-norm-rules
+  composer require acdh-oeaw/arche-assets
   ```
 * Usage with
   ```php
   require_once 'vendor/autoload.php';
   print_r(acdhOeaw\UriNormRules::getRules());
+  print_r(acdhOeaw\ArcheFileFormats::getAll();
+  print_r(acdhOeaw\ArcheFileFormats::getByMime('application/json');
+  print_r(acdhOeaw\ArcheFileFormats::getByExtension('application/json');
   ```

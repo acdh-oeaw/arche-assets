@@ -3,7 +3,7 @@
 /*
  * The MIT License
  *
- * Copyright 2019 Austrian Centre for Digital Humanities.
+ * Copyright 2021 Austrian Centre for Digital Humanities.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -26,10 +26,16 @@
 
 namespace acdhOeaw;
 
-class UriNormRules {
+class ArcheFileFormatsTest extends \PHPUnit\Framework\TestCase {
+    public function testGet(): void {
+        $formats = ArcheFileFormats::getAll();
+        $this->assertGreaterThan(10, count($formats));
 
-    static public function getRules(): array {
-        return json_decode(file_get_contents(__DIR__ . '/rules.json'));
+        $formats = ArcheFileFormats::getByExtension('zip');
+        $this->assertCount(1, $formats);
+        $this->assertTrue(in_array('zip', $formats[0]->extensions));
+
+        $format = ArcheFileFormats::getByMime('image/png');
+        $this->assertTrue(in_array('image/png', $format->MIME_type));
     }
 }
-

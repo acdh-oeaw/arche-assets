@@ -1,5 +1,5 @@
 import unittest
-from AcdhUriNormRules.AcdhUriNormRules import get_rules, get_normalized_uri
+from AcdhArcheAssets.AcdhUriNormRules import get_rules, get_normalized_uri
 
 SAMPLES = [
     [

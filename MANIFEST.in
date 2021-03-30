@@ -1,1 +1,2 @@
-include AcdhUriNormRules/rules.json
+include AcdhArcheAssets/formats.json
+include AcdhArcheAssets/uriNormRules.json

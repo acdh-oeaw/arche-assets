@@ -1,8 +1,8 @@
 {
-    "name": "acdh-oeaw/uri-norm-rules",
-    "description": "A data package providing rules for the https://github.com/acdh-oeaw/uriNormalizer",
+    "name": "acdh-oeaw/arche-assets",
+    "description": "Set of static assets used (mainly) for ARCHE data preprocessing",
     "keywords": [],
-    "homepage": "https://github.com/acdh-oeaw/UriNormRules",
+    "homepage": "https://github.com/acdh-oeaw/arche-assets",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,15 @@
     },
     "autoload": {
         "psr-4": {
-            "acdhOeaw\\": "AcdhUriNormRules"
+            "acdhOeaw\\": "src/acdhOeaw"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "acdhOeaw\\": "tests"
         }
     }
 }
