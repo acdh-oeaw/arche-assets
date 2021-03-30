@@ -9,7 +9,7 @@ def get_rules():
   :rtype: list
   
   """
-  return json.loads(pkg_resources.resource_string(__name__, 'rules.json'))
+  return json.loads(pkg_resources.resource_string(__name__, 'uriNormRules.json'))
     
 
 def get_normalized_uri(uri):
