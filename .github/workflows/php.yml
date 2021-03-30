@@ -1,0 +1,19 @@
+name: phpunit
+
+on: push
+
+jobs:
+  phpunit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/cache@v2
+      with:
+        path: vendor
+        key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+        restore-keys: ${{ runner.os }}-composer-
+    - name: composer
+      run: composer update
+    - name: phpunit
+      run: XDEBUG_MODE=coverage vendor/bin/phpunit
+
