@@ -8,3 +8,6 @@ env
 *.pyc
 /.phpunit.result.cache
 AcdhArcheAssets/formats-draft.csv
+htmlcov
+.coverage
+.vscode/settings.json

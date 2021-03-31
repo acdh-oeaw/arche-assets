@@ -1,5 +1,5 @@
 import unittest
-from AcdhArcheAssets.AcdhUriNormRules import get_rules, get_normalized_uri
+from AcdhArcheAssets.uri_norm_rules import get_rules, get_normalized_uri
 
 SAMPLES = [
     [
@@ -16,11 +16,12 @@ SAMPLES = [
     ]
 ]
 
+
 class TestNormalizer(unittest.TestCase):
     def test__001_load_list(self):
         rules = get_rules()
         self.assertEqual(type(rules), list, "should be type 'list' ")
-    
+
     def test__002_test_patterns(self):
         for x in SAMPLES:
             new_uri = get_normalized_uri(x[0])

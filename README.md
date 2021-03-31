@@ -73,3 +73,13 @@ Further information is provided as well.
    * unsure - status remains to be evaluated
 * archeDocs: Link to a place with more information for the format.
 * comment: Any other noteworthy information not stated elsewhere.
+
+# Developement (Python)
+
+install needed developement packages `pip install requirmenets_dev.txt`
+
+## linting, tests and testcoverage
+
+* to run the test: `tox`
+* check coverage and create report: `coverage run setup.py test` and `coverage html`
+* check linting `flake8`
