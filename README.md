@@ -65,8 +65,8 @@ Further information is provided as well.
 * magicNumber: A constant numerical or text value used to identify a file format, e.g. [Wikipedia list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
 * ianaTemplate: Link to template at IANA
 * reference: Link(s) to format specifications referenced by IANA and others
-* longTerm: Indicates if a format is suitable for long-term preservation.
- * Possible values and their meaning
+* longTerm: Indicates if a format is suitable for long-term preservation.\
+  Possible values and their meaning
    * yes - long-term format
    * no - not suitable, another format should be used
    * restricted - can be used for long-term preservation in some cases (see comment)
