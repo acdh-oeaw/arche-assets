@@ -22,14 +22,21 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
   ```
 * Use with
   ```Python
-  from AcdhUriNormRules import get_rules, get_normalized_uri
-  print(AcdhUriNormRules.get_rules())
+  from AcdhArcheAssets.uri_norm_rules import get_rules, get_normalized_uri
+  print(f"{get_rules()}")
 
   wrong_id = "http://sws.geonames.org/1232324343/linz.html"
 
   good_id = get_normalized_uri(wrong_id)
   print(good_id)
   # "https://www.geonames.org/1232324343"
+
+  from AcdhArcheAssets.file_formats import get_formats, get_by_mtype, get_by_extension
+
+  formats = get_formats()
+  matching_mapping = get_by_mtype('image/png')
+  matching_mapping = get_by_extension('png')
+  
   ```
 
 ## PHP
@@ -76,7 +83,7 @@ Further information is provided as well.
 
 # Developement (Python)
 
-install needed developement packages `pip install requirmenets_dev.txt`
+install needed developement packages `pip install requirements_dev.txt`
 
 ## linting, tests and testcoverage
 
