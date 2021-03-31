@@ -4,11 +4,10 @@
 [![Latest Stable Version](https://poser.pugx.org/acdh-oeaw/arche-assets/v/stable)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 [![License](https://poser.pugx.org/acdh-oeaw/arche-assets/license)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 
-Set of static assets used (mainly) for ARCHE data preprocessing:
-
+Set of static assets used (mainly) for ARCHE data preprocessing or ARCHE information pages:
 * URI normalization rules used within the [ACDH-CD](https://www.oeaw.ac.at/acdh/).\
   (stored in `AcdhArcheAssets/uriNormRules.json`)
-* Description of input data formats accepted by the [ARCHE](https://arche.acdh.oeaw.ac.at).\
+* Description of input data formats accepted by [ARCHE](https://arche.acdh.oeaw.ac.at).\
   (stored in `AcdhArcheAssets/formats.json`)
 
 The repository provides also Python 3 and PHP bindings for accessing those assets.
@@ -47,3 +46,30 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
   print_r(acdhOeaw\ArcheFileFormats::getByMime('application/json');
   print_r(acdhOeaw\ArcheFileFormats::getByExtension('application/json');
   ```
+
+# Description of assets
+
+## Formats
+
+A curated and growing list of file extensions. For each file extension mappings to the respective [ARCHE Resource Type Category]( 	https://vocabs.acdh.oeaw.ac.at/archecategory/Schema) (stored in `acdh:hasCategory`) and [Media Type (MIME type)](https://www.iana.org/assignments/media-types/media-types.xhtml) (stored in `acdh:hasFormat`) are given. The indicated Media Type should only be used as a fallback; it is best practice to rely on automated Media Type detection based on file signatures.
+
+Further information is provided as well.
+
+* fileExtension: File extension to be mapped.
+* name: Name(s) the format is known
+* archeCategory: The corresponding URI of the [ARCHE Resource Type Category Vocabulary](https://vocabs.acdh.oeaw.ac.at/archecategory/Schema)
+* dataType: A broad category to group formats in; mainly intended for visualisation purposes.
+* pronomID: ID(s) assigned by [PRONOM](http://www.nationalarchives.gov.uk/PRONOM/Default.aspx)
+* mimeType: Official Media Type(s) (formerly known as MIME types) registered at [IANA](https://www.iana.org/assignments/media-types/media-types.xhtml).
+* informalMimeType: Other MIME types kown for the format
+* magicNumber: A constant numerical or text value used to identify a file format, e.g. [Wikipedia list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
+* ianaTemplate: Link to template at IANA
+* reference: Link(s) to format specifications referenced by IANA and others
+* longTerm: Indicates if a format is suitable for long-term preservation.
+ * Possible values and their meaning
+   * yes - long-term format
+   * no - not suitable, another format should be used
+   * restricted - can be used for long-term preservation in some cases (see comment)
+   * unsure - status remains to be evaluated
+* archeDocs: Link to a place with more information for the format.
+* comment: Any other noteworthy information not stated elsewhere.

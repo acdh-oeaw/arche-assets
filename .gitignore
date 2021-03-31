@@ -7,3 +7,4 @@ env
 .tox
 *.pyc
 /.phpunit.result.cache
+AcdhArcheAssets/formats-draft.csv
