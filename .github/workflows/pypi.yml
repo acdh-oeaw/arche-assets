@@ -18,14 +18,16 @@ jobs:
         sed -i -e "s/version=\".*\"/version=\"$RELEASE\"/" setup.py
         echo $RELEASE
         cat setup.py
-    - name: deps
-      run: pip install --user wheel
-    - name: build
-      run: python3 setup.py sdist bdist_wheel
-    - uses: pypa/gh-action-pypi-publish@master
-      with:
-        password: ${{ secrets.test_pypi_password }}
-        repository_url: https://test.pypi.org/legacy/
-    - uses: pypa/gh-action-pypi-publish@master
-      with:
-        password: ${{ secrets.pypi_password }}
+    - name: Install pip, setuptools, wheel, twine
+      run: |
+        python -m pip install --upgrade pip
+        pip install setuptools wheel twine
+    - name: Build and publish
+      env:
+        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+        # TODO COOKIETEMPLE: Configure your secrets to enable automatic deployment to PyPi on releases
+        # https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
+        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+      run: |
+        python setup.py sdist bdist_wheel
+        twine upload dist/*
