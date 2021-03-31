@@ -1,6 +1,6 @@
 # Arche Assets
 
-[![PyPI version](https://badge.fury.io/py/acdh-uri-norm-rules.svg)](https://badge.fury.io/py/acdh-uri-norm-rules)
+[![PyPI version](https://badge.fury.io/py/acdh-arche-assets.svg)](https://badge.fury.io/py/acdh-arche-assets)
 [![Latest Stable Version](https://poser.pugx.org/acdh-oeaw/arche-assets/v/stable)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 [![License](https://poser.pugx.org/acdh-oeaw/arche-assets/license)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 
@@ -18,7 +18,7 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 
 * Install using pip3:
   ```bash
-  pip3 install acdh_uri-norm-rules
+  pip3 install acdh-arche-assets
   ```
 * Use with
   ```Python
