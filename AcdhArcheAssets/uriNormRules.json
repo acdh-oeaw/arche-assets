@@ -42,5 +42,9 @@
    {
       "match" : "^https?://vocab[.]getty[.]edu/(page/)?tgn/([0-9]+)([.][a-z]+)?$",
       "replace" : "http://vocab.getty.edu/page/tgn/\\2"
+   },
+   {
+      "match" : "^https?://hdl.handle.net/(.*)$",
+      "replace" : "https://hdl.handle.net/\\1"
    }
 ]
