@@ -13,7 +13,7 @@
    },
    {
       "match" : "^https?://([^.]*[.])?geonames[.]org/([0-9]+)(/.*)?$",
-      "replace" : "https://www.geonames.org/\\2"
+      "replace" : "https://sws.geonames.org/\\2/"
    },
    {
       "match" : "^https?://([^.]*[.])?n2t[.]net/ark:/99152/(p0[a-z0-9]+)$",
