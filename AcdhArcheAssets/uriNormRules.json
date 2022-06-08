@@ -29,7 +29,7 @@
    },
    {
       "match" : "^https?://([^.]*[.])?viaf[.]org/viaf/([0-9]+)(/.*)?$",
-      "replace" : "https://viaf.org/viaf/\\2"
+      "replace" : "http://viaf.org/viaf/\\2"
    },
    {
       "match" : "^https?://([^.]*[.])?wikidata[.]org/([A-Za-z:]+/)*(Q[0-9]+)([^[0-9].*)?$",
