@@ -36,12 +36,8 @@
       "replace" : "https://www.wikidata.org/entity/\\3"
    },
    {
-      "match" : "^https?://vocab[.]getty[.]edu/(page/)?aat/([0-9]+)([.][a-z]+)?$",
-      "replace" : "http://vocab.getty.edu/page/aat/\\2"
-   },
-   {
-      "match" : "^https?://vocab[.]getty[.]edu/(page/)?tgn/([0-9]+)([.][a-z]+)?$",
-      "replace" : "http://vocab.getty.edu/page/tgn/\\2"
+      "match" : "^https?://vocab[.]getty[.]edu/(page/|hier/)?(aat|tgn|ulan|cona|ia)/([0-9]+)([.][a-z]+)?$",
+      "replace" : "http://vocab.getty.edu/\\2/\\3"
    },
    {
       "match" : "^https?://hdl.handle.net/(.*)$",
