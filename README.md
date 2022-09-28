@@ -56,6 +56,15 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 
 # Description of assets
 
+## URI normalization rules
+
+Each rule consists of four properties:
+
+* `match`: a regular expression matching a given URI namespace
+* `replace`: a regular expression replace expression normalizing an URI in a given namespace
+* `resolve`: a regular expression replace expression transforming an URI in a given namespace to an URL fetching an RDF data
+* `format`: a RDF serialization format to be requested while resolving the URL produced using the `resolve` field
+
 ## Formats
 
 A curated and growing list of file extensions. For each file extension mappings to the respective [ARCHE Resource Type Category]( 	https://vocabs.acdh.oeaw.ac.at/archecategory/Schema) (stored in `acdh:hasCategory`) and [Media Type (MIME type)](https://www.iana.org/assignments/media-types/media-types.xhtml) (stored in `acdh:hasFormat`) are given. The indicated Media Type should only be used as a fallback; it is best practice to rely on automated Media Type detection based on file signatures.
