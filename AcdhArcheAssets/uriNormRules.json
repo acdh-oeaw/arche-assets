@@ -67,8 +67,8 @@
    },
    {
       "match"   : "^https?://isni.org/isni/([0-9]{4})-?([0-9]{4})-?([0-9]{4})-?([0-9]{3}[0-9X])(?:/.*)?$",
-      "replace" : "https://isni.org/isni/\\1-\\2-\\3-\\4",
-      "resolve" : "https://isni-url.oclc.org/isni/\\1-\\2-\\3-\\4/about.rdf",
+      "replace" : "https://isni.org/isni/\\1\\2\\3\\4",
+      "resolve" : "https://isni-url.oclc.org/isni/\\1\\2\\3\\4/about.rdf",
       "format"  : "application/rdf+xml"
    }
 ]
