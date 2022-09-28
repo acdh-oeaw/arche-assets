@@ -24,10 +24,16 @@
       "format"  : "application/rdf+xml"
    },
    {
-      "match"   : "^https?://(?:[^.]*[.])?n2t[.]net/ark:/99152/(p0[a-z0-9]+)$",
-      "replace" : "https://n2t.net/ark:/99152/\\1",
-      "resolve" : "",
-      "format"  : ""
+      "match"   : "^https?://(?:[^.]*[.])?n2t[.]net/ark:/99152/([a-z0-9]+).*$",
+      "replace" : "http://n2t.net/ark:/99152/\\1",
+      "resolve" : "http://n2t.net/ark:/99152/\\1",
+      "format"  : "text/turtle"
+   },
+   {
+      "match"   : "^https?://(?:[^.]*[.])?perio.do/([a-z0-9]+).*$",
+      "replace" : "http://n2t.net/ark:/99152/\\1",
+      "resolve" : "http://n2t.net/ark:/99152/\\1",
+      "format"  : "text/turtle"
    },
    {
       "match"   : "^https?://(?:[^.]*[.])?orcid[.]org/([0-9]{4})-?([0-9]{4})-?([0-9]{4})-?([0-9]{3}[0-9X])/?$",
