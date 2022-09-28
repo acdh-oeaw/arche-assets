@@ -55,8 +55,8 @@
    },
    {
       "match"   : "^https?://(?:[^.]*[.])?wikidata[.]org/(?:[A-Za-z:]+/)*(Q[0-9]+)([^[0-9].*)?$",
-      "replace" : "https://www.wikidata.org/entity/\\1",
-      "resolve" : "https://www.wikidata.org/entity/\\1",
+      "replace" : "http://www.wikidata.org/entity/\\1",
+      "resolve" : "http://www.wikidata.org/entity/\\1",
       "format"  : "application/n-triples"
    },
    {
