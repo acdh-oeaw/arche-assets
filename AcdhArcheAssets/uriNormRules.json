@@ -42,5 +42,9 @@
    {
       "match" : "^https?://hdl.handle.net/(.*)$",
       "replace" : "https://hdl.handle.net/\\1"
+   },
+   {
+      "match" : "^https?://isni.org/isni/([0-9]+)(/.*)?$",
+      "replace" : "https://isni.org/isni/\\1"
    }
 ]
