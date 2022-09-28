@@ -30,9 +30,9 @@
       "format"  : ""
    },
    {
-      "match"   : "^https?://(?:[^.]*[.])?orcid[.]org/([-A-Z0-9]+)/?$",
-      "replace" : "https://orcid.org/\\1",
-      "resolve" : "https://orcid.org/\\1",
+      "match"   : "^https?://(?:[^.]*[.])?orcid[.]org/([0-9){4})-?([0-9){4})-?([0-9){4})-?([0-9){3}[0-9X])/?$",
+      "replace" : "https://orcid.org/\\1-\\2-\\3-\\4",
+      "resolve" : "https://orcid.org/\\1-\\2-\\3-\\4",
       "format"  : "application/n-triples"
    },
    {
@@ -66,9 +66,9 @@
       "format"  : ""
    },
    {
-      "match"   : "^https?://isni.org/isni/([0-9]+)(/.*)?$",
-      "replace" : "https://isni.org/isni/\\1",
-      "resolve" : "https://isni-url.oclc.org/isni/\\1/about.rdf",
+      "match"   : "^https?://isni.org/isni/([0-9){4})-?([0-9){4})-?([0-9){4})-?([0-9){3}[0-9X])(?:/.*)?$",
+      "replace" : "https://isni.org/isni/\\1-\\2-\\3-\\4",
+      "resolve" : "https://isni-url.oclc.org/isni/\\1-\\2-\\3-\\4/about.rdf",
       "format"  : "application/rdf+xml"
    }
 ]
