@@ -3,6 +3,7 @@
 /dist
 /composer.lock
 /vendor
+/nbproject
 env
 .tox
 *.pyc
@@ -11,4 +12,3 @@ AcdhArcheAssets/formats-draft.csv
 htmlcov
 .coverage
 .vscode/settings.json
-/nbproject/private/

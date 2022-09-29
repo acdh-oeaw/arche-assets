@@ -58,8 +58,9 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 
 ## URI normalization rules
 
-Each rule consists of four properties:
+Each rule consists of five properties:
 
+* `name`: a rule name
 * `match`: a regular expression matching a given URI namespace
 * `replace`: a regular expression replace expression normalizing an URI in a given namespace
 * `resolve`: a regular expression replace expression transforming an URI in a given namespace to an URL fetching an RDF data
