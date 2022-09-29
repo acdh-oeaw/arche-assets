@@ -28,8 +28,16 @@ namespace acdhOeaw;
 
 class UriNormRules {
 
-    static public function getRules(): array {
-        return json_decode(file_get_contents(__DIR__ . '/../../AcdhArcheAssets/uriNormRules.json'));
+    static private array $data;
+
+    static public function getRules(?array $names = null): array {
+        if (!isset(self::$data)) {
+            self::$data = json_decode(file_get_contents(__DIR__ . '/../../AcdhArcheAssets/uriNormRules.json'));
+        }
+        if ($names === null) {
+            return self::$data;
+        }
+        return array_filter(self::$data, fn($i) => in_array($i->name, $names));
     }
 }
 

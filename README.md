@@ -48,7 +48,10 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 * Usage with
   ```php
   require_once 'vendor/autoload.php';
+
   print_r(acdhOeaw\UriNormRules::getRules());
+  print_r(acdhOeaw\UriNormRules::getRules(['viaf', 'gnd']));
+
   print_r(acdhOeaw\ArcheFileFormats::getAll();
   print_r(acdhOeaw\ArcheFileFormats::getByMime('application/json');
   print_r(acdhOeaw\ArcheFileFormats::getByExtension('application/json');
