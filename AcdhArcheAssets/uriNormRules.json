@@ -121,8 +121,8 @@
   {
      "name"    : "arche-localhost",
      "match"   : "^http://(127.0.0.1|localhost)/(api/)?([0-9]+)(?:/.*)?$",
-     "replace" : "http://\\1\\2\\3",
-     "resolve" : "http://\\1\\2\\3/metadata",
+     "replace" : "http://\\1/\\2\\3",
+     "resolve" : "http://\\1/\\2\\3/metadata",
      "format"  : "application/n-triples"
   }
 ]
