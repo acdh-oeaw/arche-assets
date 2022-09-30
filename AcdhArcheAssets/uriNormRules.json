@@ -17,7 +17,7 @@
      "name"    : "gazetteer",
      "match"   : "^https?://(?:[^.]*[.])?gazetteer[.]dainst[.]org/(?:[A-Za-z]+/)*([0-9]+)([^0-9].*)?$",
      "replace" : "https://gazetteer.dainst.org/place/\\1",
-     "resolve" : "https://gazetteer.dainst.org/place/\\1",
+     "resolve" : "https://gazetteer.dainst.org/doc/\\1.rdf",
      "format"  : "application/rdf+xml"
   },
   {
@@ -29,23 +29,23 @@
   },
   {
      "name"    : "n2t-periodo",
-     "match"   : "^https?://(?:[^.]*[.])?n2t[.]net/ark:/99152/([a-z0-9]+).*$",
-     "replace" : "http://n2t.net/ark:/99152/\\1",
-     "resolve" : "http://n2t.net/ark:/99152/\\1",
+     "match"   : "^https?://(?:[^.]*[.])?n2t[.]net/ark:/99152/p0([a-z0-9]+).*$",
+     "replace" : "http://n2t.net/ark:/99152/p0\\1",
+     "resolve" : "https://data.perio.do/\\1.ttl",
      "format"  : "text/turtle"
   },
   {
      "name"    : "periodo",
      "match"   : "^https?://(?:[^.]*[.])?perio.do/([a-z0-9]+).*$",
-     "replace" : "http://n2t.net/ark:/99152/\\1",
-     "resolve" : "http://n2t.net/ark:/99152/\\1",
+     "replace" : "http://n2t.net/ark:/99152/p0\\1",
+     "resolve" : "https://data.perio.do/\\1.ttl",
      "format"  : "text/turtle"
   },
   {
      "name"    : "orcid",
      "match"   : "^https?://(?:[^.]*[.])?orcid[.]org/([0-9]{4})-?([0-9]{4})-?([0-9]{4})-?([0-9]{3}[0-9X])/?$",
      "replace" : "https://orcid.org/\\1-\\2-\\3-\\4",
-     "resolve" : "https://orcid.org/\\1-\\2-\\3-\\4",
+     "resolve" : "https://pub.orcid.org/experimental_rdf_v1/\\1-\\2-\\3-\\4",
      "format"  : "application/n-triples"
   },
   {
@@ -59,14 +59,14 @@
      "name"    : "viaf",
      "match"   : "^https?://(?:[^.]*[.])?viaf[.]org/viaf/([0-9]+)(/.*)?$",
      "replace" : "http://viaf.org/viaf/\\1",
-     "resolve" : "http://viaf.org/viaf/\\1",
+     "resolve" : "https://viaf.org/viaf/\\1/",
      "format"  : "application/rdf+xml"
   },
   {
      "name"    : "wikidata",
      "match"   : "^https?://(?:[^.]*[.])?wikidata[.]org/(?:[A-Za-z:]+/)*(Q[0-9]+)([^[0-9].*)?$",
      "replace" : "http://www.wikidata.org/entity/\\1",
-     "resolve" : "http://www.wikidata.org/entity/\\1",
+     "resolve" : "https://www.wikidata.org/wiki/Special:EntityData/\\1.nt?flavor=dump",
      "format"  : "application/n-triples"
   },
   {
@@ -87,7 +87,7 @@
      "name"    : "isni",
      "match"   : "^https?://isni.org/isni/([0-9]{4})-?([0-9]{4})-?([0-9]{4})-?([0-9]{3}[0-9X])(?:/.*)?$",
      "replace" : "https://isni.org/isni/\\1\\2\\3\\4",
-     "resolve" : "https://isni-url.oclc.org/isni/\\1\\2\\3\\4/about.rdf",
+     "resolve" : "https://isni-url.oclc.org/isni_resolve.php?q=\\1\\2\\3\\4/about.rdf",
      "format"  : "application/rdf+xml"
   },
   {
