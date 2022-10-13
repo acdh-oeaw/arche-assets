@@ -12,3 +12,4 @@ AcdhArcheAssets/formats-draft.csv
 htmlcov
 .coverage
 .vscode/settings.json
+*.ipynb
