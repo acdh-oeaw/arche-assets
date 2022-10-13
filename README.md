@@ -9,7 +9,7 @@
 [![License](https://poser.pugx.org/acdh-oeaw/arche-assets/license)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 
 Set of static assets used (mainly) for ARCHE data preprocessing or ARCHE information pages:
-* URI normalization rules used within the [ACDH-CD](https://www.oeaw.ac.at/acdh/).\
+* URI normalization rules used within the [ACDH-CH](https://www.oeaw.ac.at/acdh/).\
   (stored in `AcdhArcheAssets/uriNormRules.json`)
 * Description of input data formats accepted by [ARCHE](https://arche.acdh.oeaw.ac.at).\
   (stored in `AcdhArcheAssets/formats.json`)
