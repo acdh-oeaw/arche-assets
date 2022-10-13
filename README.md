@@ -1,7 +1,11 @@
 # Arche Assets
 
 [![PyPI version](https://badge.fury.io/py/acdh-arche-assets.svg)](https://badge.fury.io/py/acdh-arche-assets)
+[![codecov](https://codecov.io/gh/acdh-oeaw/arche-assets/branch/master/graph/badge.svg?token=RFOH77TBV1)](https://codecov.io/gh/acdh-oeaw/arche-assets)
+[![Test](https://github.com/acdh-oeaw/arche-assets/actions/workflows/pytest.yml/badge.svg)](https://github.com/acdh-oeaw/arche-assets/actions/workflows/pytest.yml)
+[![flake8 Lint](https://github.com/acdh-oeaw/arche-assets/actions/workflows/pylint.yml/badge.svg)](https://github.com/acdh-oeaw/arche-assets/actions/workflows/pylint.yml)
 [![Latest Stable Version](https://poser.pugx.org/acdh-oeaw/arche-assets/v/stable)](https://packagist.org/packages/acdh-oeaw/arche-assets)
+[![phpunit](https://github.com/acdh-oeaw/arche-assets/actions/workflows/php.yml/badge.svg)](https://github.com/acdh-oeaw/arche-assets/actions/workflows/php.yml)
 [![License](https://poser.pugx.org/acdh-oeaw/arche-assets/license)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 
 Set of static assets used (mainly) for ARCHE data preprocessing or ARCHE information pages:
@@ -22,7 +26,7 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
   ```
 * Use with
   ```Python
-  from AcdhArcheAssets.uri_norm_rules import get_rules, get_normalized_uri
+  from AcdhArcheAssets.uri_norm_rules import get_rules, get_normalized_uri, get_norm_id
   print(f"{get_rules()}")
 
   wrong_id = "http://sws.geonames.org/1232324343/linz.html"
@@ -30,6 +34,12 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
   good_id = get_normalized_uri(wrong_id)
   print(good_id)
   # "https://sws.geonames.org/1232324343/"
+
+  # extract ID from URL
+  norm_id = get_norm_id("http://sws.geonames.org/1232324343/linz.html")
+  print(norm_id)
+  # "1232324343"
+
 
   from AcdhArcheAssets.file_formats import get_formats, get_by_mtype, get_by_extension
 
