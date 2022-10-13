@@ -29,7 +29,7 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 
   good_id = get_normalized_uri(wrong_id)
   print(good_id)
-  # "https://www.geonames.org/1232324343/"
+  # "https://sws.geonames.org/1232324343/"
 
   from AcdhArcheAssets.file_formats import get_formats, get_by_mtype, get_by_extension
 
