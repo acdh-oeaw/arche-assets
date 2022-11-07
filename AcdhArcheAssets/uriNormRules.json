@@ -14,6 +14,13 @@
      "format"  : "text/turtle"
   },
   {
+     "name"    : "gnd-lobid",
+     "match"   : "^https?://lobid.org/gnd/([0-9]+)$",
+     "replace" : "https://d-nb.info/gnd/\\1",
+     "resolve" : "https://d-nb.info/gnd/\\1/about/lds.ttl",
+     "format"  : "text/turtle"
+  },
+  {
      "name"    : "gazetteer",
      "match"   : "^https?://(?:[^.]*[.])?gazetteer[.]dainst[.]org/(?:[A-Za-z]+/)*([0-9]+)([^0-9].*)?$",
      "replace" : "https://gazetteer.dainst.org/place/\\1",
