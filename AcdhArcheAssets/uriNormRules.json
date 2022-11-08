@@ -98,6 +98,13 @@
      "format"  : "application/rdf+xml"
   },
   {
+     "name"    : "pmb",
+     "match"   : "^https?://pmb.acdh.oeaw.ac.at/apis/entities/entity/([^/]+)/([0-9]+)(?:/detail)?$",
+     "replace" : "https://pmb.acdh.oeaw.ac.at/apis/entities/entity/\\1/\\2/detail",
+     "resolve" : "https://pmb-service.acdh-dev.oeaw.ac.at/arche/\\2",
+     "format"  : "text/turtle"
+  },
+  {
      "name"    : "arche",
      "match"   : "^https://arche.acdh.oeaw.ac.at/api/([0-9]+)(?:/.*)?$",
      "replace" : "https://arche.acdh.oeaw.ac.at/api/\\1",
