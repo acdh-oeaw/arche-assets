@@ -99,9 +99,9 @@
   },
   {
      "name"    : "pmb",
-     "match"   : "^https?://pmb.acdh.oeaw.ac.at/apis/entities/entity/([^/]+)/([0-9]+)(?:/detail)?$",
-     "replace" : "https://pmb.acdh.oeaw.ac.at/apis/entities/entity/\\1/\\2/detail",
-     "resolve" : "https://pmb-service.acdh-dev.oeaw.ac.at/arche/\\2",
+     "match"   : "^https?://pmb.acdh.oeaw.ac.at(?:/apis/entities)?/entity(?:/[^/]+)?/([0-9]+)(?:/detail)?/?$",
+     "replace" : "https://pmb.acdh.oeaw.ac.at/entity/\\1/",
+     "resolve" : "https://pmb-service.acdh-dev.oeaw.ac.at/arche/\\1",
      "format"  : "text/turtle"
   },
   {
