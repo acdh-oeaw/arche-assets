@@ -138,5 +138,12 @@
      "replace" : "http://\\1/\\2\\3",
      "resolve" : "http://\\1/\\2\\3/metadata",
      "format"  : "application/n-triples"
+  },
+  {
+     "name"    : "gnd-vocab",
+     "match"   : "^https?://(?:[^.]*[.])?d-nb[.]info/standards/vocab/gnd/(.*)#(.*)$",
+     "replace" : "https://d-nb.info/standards/vocab/gnd/\\1#\\2",
+     "resolve" : "https://d-nb.info/standards/vocab/gnd/\\1.ttl",
+     "format"  : "text/turtle"
   }
 ]
