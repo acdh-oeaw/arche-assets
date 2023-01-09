@@ -108,21 +108,21 @@
      "name"    : "arche",
      "match"   : "^https://arche.acdh.oeaw.ac.at/api/([0-9]+)(?:/.*)?$",
      "replace" : "https://arche.acdh.oeaw.ac.at/api/\\1",
-     "resolve" : "https://arche.acdh.oeaw.ac.at/api/\\1/metadata",
+     "resolve" : "https://arche.acdh.oeaw.ac.at/api/\\1/metadata?readMode=resource",
      "format"  : "application/n-triples"
   },
   {
      "name"    : "arche-curation",
      "match"   : "^https://arche-curation.acdh-dev.oeaw.ac.at/api/([0-9]+)(?:/.*)?$",
      "replace" : "https://arche-curation.acdh-dev.oeaw.ac.at/api/\\1",
-     "resolve" : "https://arche-curation.acdh-dev.oeaw.ac.at/api/\\1/metadata",
+     "resolve" : "https://arche-curation.acdh-dev.oeaw.ac.at/api/\\1/metadata?readMode=resource",
      "format"  : "application/n-triples"
   },
   {
      "name"    : "arche-dev",
      "match"   : "^https://arche-dev.acdh-dev.oeaw.ac.at/api/([0-9]+)(?:/.*)?$",
      "replace" : "https://arche-dev.acdh-dev.oeaw.ac.at/api/\\1",
-     "resolve" : "https://arche-dev.acdh-dev.oeaw.ac.at/api/\\1/metadata",
+     "resolve" : "https://arche-dev.acdh-dev.oeaw.ac.at/api/\\1/metadata?readMode=resource",
      "format"  : "application/n-triples"
   },
   {
@@ -136,7 +136,7 @@
      "name"    : "arche-localhost",
      "match"   : "^http://(127.0.0.1|localhost)/(api/)?([0-9]+)(?:/.*)?$",
      "replace" : "http://\\1/\\2\\3",
-     "resolve" : "http://\\1/\\2\\3/metadata",
+     "resolve" : "http://\\1/\\2\\3/metadata?readMode=resource",
      "format"  : "application/n-triples"
   },
   {
