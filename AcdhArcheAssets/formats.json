@@ -132,7 +132,7 @@
       "extensions" : [
          "dxf"
       ],
-      "name" : ""
+      "name" : "Drawing Interchange Format (Autodesk)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -190,7 +190,7 @@
       "extensions" : [
          "gif"
       ],
-      "name" : ""
+      "name" : "Graphics Interchange Format"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -246,7 +246,7 @@
       "extensions" : [
          "html"
       ],
-      "name" : ""
+      "name" : "HyperText Markup Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
@@ -267,7 +267,7 @@
          "jpg",
          "jpeg"
       ],
-      "name" : ""
+      "name" : "Joint Photographic Expert Group"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -414,7 +414,7 @@
       "extensions" : [
          "pdf"
       ],
-      "name" : ""
+      "name" : "other PDF variants"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -455,7 +455,7 @@
       "extensions" : [
          "png"
       ],
-      "name" : ""
+      "name" : "Portable Network Graphics"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -617,7 +617,7 @@
       "extensions" : [
          "siard"
       ],
-      "name" : ""
+      "name" : "Software Independent Archiving of Relational Databases"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
@@ -635,7 +635,7 @@
       "extensions" : [
          "svg"
       ],
-      "name" : ""
+      "name" : "Scalable Vector Graphis 1.1, uncompressed"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -726,7 +726,7 @@
          "tif",
          "tiff"
       ],
-      "name" : ""
+      "name" : "Baseline TIFF v. 6, uncompressed"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -746,7 +746,7 @@
       "extensions" : [
          "txt"
       ],
-      "name" : ""
+      "name" : "Plain Text"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -785,7 +785,7 @@
       "extensions" : [
          "xml"
       ],
-      "name" : ""
+      "name" : "eXtensible Markup Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -856,7 +856,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -869,10 +869,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["ai", "indd"],
-      "name" : ""
+      "name" : "Adobe Illustrator, Adobe InDesign"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -885,7 +885,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["fp5", "fp7", "fmp12"],
-      "name" : ""
+      "name" : "FileMaker Databases"
    },
    {
       "ARCHE_category" : "",
@@ -936,7 +936,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -949,10 +949,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["bak"],
-      "name" : ""
+      "name" : "binary export formats for databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -965,10 +965,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["accdb"],
-      "name" : ""
+      "name" : "Microsoft Access Databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -981,10 +981,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["bmp"],
-      "name" : ""
+      "name" : "Bit-Mapped Graphics Format (Microsoft)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -997,10 +997,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["cgm"],
-      "name" : ""
+      "name" : "Computer Graphics Metafile, WebCGM"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1013,10 +1013,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["cpt"],
-      "name" : ""
+      "name" : "CorelPaint"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1029,10 +1029,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["db"],
-      "name" : ""
+      "name" : "binary export format for databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1045,10 +1045,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["dmp"],
-      "name" : ""
+      "name" : "binary export formats for databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1061,10 +1061,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["doc"],
-      "name" : ""
+      "name" : "Microsoft Word"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1077,10 +1077,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["dwf"],
-      "name" : ""
+      "name" : "Design Web Format (Autodesk)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1093,10 +1093,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["dwg"],
-      "name" : ""
+      "name" : "Drawing (Autodesk)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1109,7 +1109,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["eps", "ps"],
-      "name" : ""
+      "name" : "PostScript, Encapsulated PostScript"
    },
    {
       "ARCHE_category" : "",
@@ -1144,7 +1144,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1157,10 +1157,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["jp2", "jpx"],
-      "name" : ""
+      "name" : "JPEG2000"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1173,7 +1173,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["json"],
-      "name" : ""
+      "name" : "Javascropt Object Notation"
    },
    {
       "ARCHE_category" : "",
@@ -1192,7 +1192,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1205,7 +1205,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mdb"],
-      "name" : ""
+      "name" : "Microsoft Access Databases"
    },
    {
       "ARCHE_category" : "",
@@ -1320,7 +1320,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1333,7 +1333,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["odb"],
-      "name" : ""
+      "name" : "Open Document Databases"
    },
    {
       "ARCHE_category" : "",
@@ -1352,7 +1352,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1365,10 +1365,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["psd"],
-      "name" : ""
+      "name" : "Photoshop (Adobe)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1381,7 +1381,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["rtf"],
-      "name" : ""
+      "name" : "Rich Text Format"
    },
    {
       "ARCHE_category" : "",
@@ -1400,7 +1400,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1413,7 +1413,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["sxc"],
-      "name" : ""
+      "name" : "Open Office XML"
    },
    {
       "ARCHE_category" : "",
@@ -1512,7 +1512,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1525,7 +1525,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["xls"],
-      "name" : ""
+      "name" : "Microsoft Excel"
    },
    {
       "ARCHE_category" : "",
@@ -1560,7 +1560,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1573,10 +1573,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["dng"],
-      "name" : ""
+      "name" : "Adobe Digital Negative"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1589,10 +1589,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["docx"],
-      "name" : ""
+      "name" : "Office Open XML Document (Microsoft)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1605,7 +1605,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["dtd"],
-      "name" : ""
+      "name" : "Document type definition"
    },
    {
       "ARCHE_category" : "",
@@ -1624,7 +1624,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1637,7 +1637,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["htm", "html"],
-      "name" : ""
+      "name" : "HyperText Markup Language"
    },
    {
       "ARCHE_category" : "",
@@ -1656,7 +1656,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1669,10 +1669,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["ods"],
-      "name" : ""
+      "name" : "Open Document Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1685,10 +1685,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["odt"],
-      "name" : ""
+      "name" : "Open Document Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1701,10 +1701,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["sgml"],
-      "name" : ""
+      "name" : "Markp Text"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1717,10 +1717,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["sql"],
-      "name" : ""
+      "name" : "Structured Query Language"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1733,7 +1733,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["tsv"],
-      "name" : ""
+      "name" : "Tab Separated Values"
    },
    {
       "ARCHE_category" : "",
@@ -1784,7 +1784,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1797,10 +1797,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["xlsx"],
-      "name" : ""
+      "name" : "Office Open XML Workbook (Microsoft)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1813,6 +1813,6 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["xsd"],
-      "name" : ""
+      "name" : "XML Schema definition"
    }
 ]
