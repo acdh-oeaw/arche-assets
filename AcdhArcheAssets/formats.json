@@ -610,7 +610,7 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : ["image/svg+xml"],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
