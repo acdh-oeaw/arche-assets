@@ -342,7 +342,7 @@
       "extensions" : [
          "mkv"
       ],
-      "name" : ""
+      "name" : "Matroska"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -378,7 +378,7 @@
       "extensions" : [
          "obj"
       ],
-      "name" : ""
+      "name" : "Wavefront .obj file"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -764,7 +764,7 @@
       "extensions" : [
          "x3d"
       ],
-      "name" : ""
+      "name" : "eXtensible 3D Graphics"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -824,7 +824,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -837,10 +837,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["aac"],
-      "name" : ""
+      "name" : "Advanced Audio Coding"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -853,7 +853,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mp4"],
-      "name" : ""
+      "name" : "MP4"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
@@ -888,7 +888,7 @@
       "name" : "FileMaker Databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -901,10 +901,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["aiff"],
-      "name" : ""
+      "name" : "Audio Interchange File Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -917,10 +917,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["asf"],
-      "name" : ""
+      "name" : "Advances Systems Format (ASF/WMV)"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -933,7 +933,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["avi"],
-      "name" : ""
+      "name" : "Audio Video Interactive"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1112,7 +1112,7 @@
       "name" : "PostScript, Encapsulated PostScript"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1125,7 +1125,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["f4v"],
-      "name" : ""
+      "name" : "Flash"
    },
    {
       "ARCHE_category" : "",
@@ -1176,7 +1176,7 @@
       "name" : "Javascropt Object Notation"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1189,7 +1189,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["maff"],
-      "name" : ""
+      "name" : "Mozilla Archive Format"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1208,7 +1208,7 @@
       "name" : "Microsoft Access Databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1221,10 +1221,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mj2"],
-      "name" : ""
+      "name" : "Motion JPEG 2000"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1237,10 +1237,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mov"],
-      "name" : ""
+      "name" : "QuickTime File Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1253,10 +1253,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mp3"],
-      "name" : ""
+      "name" : "MP3"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1269,10 +1269,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mp4"],
-      "name" : ""
+      "name" : "MPEG-4"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1285,10 +1285,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mpeg"],
-      "name" : ""
+      "name" : "MPEG-2"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1301,7 +1301,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mxf"],
-      "name" : ""
+      "name" : "Material eXchange Format"
    },
    {
       "ARCHE_category" : "",
@@ -1336,7 +1336,7 @@
       "name" : "Open Document Databases"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1349,7 +1349,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["ogg", "ogm", "ogv", "ogx", "spx"],
-      "name" : ""
+      "name" : "Ogg"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
@@ -1384,7 +1384,7 @@
       "name" : "Rich Text Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1397,7 +1397,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["stl"],
-      "name" : ""
+      "name" : "Standard Tessellation Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -1432,7 +1432,7 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1445,10 +1445,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["u3d"],
-      "name" : ""
+      "name" : "Universal 3D Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1461,10 +1461,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["vrml"],
-      "name" : ""
+      "name" : "Virtual Reality Modeling Language"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1477,10 +1477,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["wav"],
-      "name" : ""
+      "name" : "RF64/MBWF"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1493,10 +1493,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["wma"],
-      "name" : ""
+      "name" : "Windows Media Audio"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
@@ -1509,7 +1509,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["wmv"],
-      "name" : ""
+      "name" : "Advanced Systems Format (ASF/WMV)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1528,7 +1528,7 @@
       "name" : "Microsoft Excel"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1541,10 +1541,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["bwf"],
-      "name" : ""
+      "name" : "Broadcast Wave Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1557,7 +1557,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["dae"],
-      "name" : ""
+      "name" : "COLLADA"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
@@ -1608,7 +1608,7 @@
       "name" : "Document type definition"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1621,7 +1621,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["flac"],
-      "name" : ""
+      "name" : "Free Lossless Audio Codec"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -1640,7 +1640,7 @@
       "name" : "HyperText Markup Language"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1653,7 +1653,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["mht", "mhtml"],
-      "name" : ""
+      "name" : "MIME Encapsulation of Aggregate HTML Documents"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1736,7 +1736,7 @@
       "name" : "Tab Separated Values"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1749,10 +1749,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["warc"],
-      "name" : ""
+      "name" : "WebArchive"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1765,10 +1765,10 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["wav"],
-      "name" : ""
+      "name" : "Waveform Audio File Format"
    },
    {
-      "ARCHE_category" : "",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
@@ -1781,7 +1781,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["xht", "xhtml"],
-      "name" : ""
+      "name" : "Extensible HyperText Markup Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
