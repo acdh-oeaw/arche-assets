@@ -1173,7 +1173,7 @@
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : ["json"],
-      "name" : "Javascropt Object Notation"
+      "name" : "Javascript Object Notation"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
