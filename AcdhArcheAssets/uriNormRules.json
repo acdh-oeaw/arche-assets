@@ -145,5 +145,19 @@
      "replace" : "https://d-nb.info/standards/vocab/gnd/\\1#\\2",
      "resolve" : "https://d-nb.info/standards/vocab/gnd/\\1.ttl",
      "format"  : "text/turtle"
+  },
+  {
+     "name"    : "acdh-vocabs",
+     "match"   : "^https?://vocabs.acdh.oeaw.ac.at/(.*)$",
+     "replace" : "https://vocabs.acdh.oeaw.ac.at/\\1",
+     "resolve" : "https://vocabs.acdh.oeaw.ac.at/\\1",
+     "format"  : "text/turtle"
+  },
+  {
+     "name"    : "used-in-vocabs",
+     "match"   : "^(https://creativecommons.org|http://rightsstatements.org/vocab|http://purl.org/dc/dcmitype)/(.*)$",
+     "replace" : "\\1/\\2",
+     "resolve" : "\\1/\\2",
+     "format"  : "text/turtle"
   }
 ]
