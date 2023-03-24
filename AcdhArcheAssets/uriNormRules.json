@@ -98,6 +98,13 @@
      "format"  : "application/rdf+xml"
   },
   {
+     "name"    : "loc-rwo-agents",
+     "match"   : "^https?://id.loc.gov/rwo/agents/n([0-9]+)([.][a-z]+)?$",
+     "replace" : "https://id.loc.gov/rwo/agents/n\\1",
+     "resolve" : "https://id.loc.gov/rwo/agents/n\\1.nt",
+     "format"  : "application/n-triples"
+  },
+  {
      "name"    : "pmb",
      "match"   : "^https?://pmb.acdh.oeaw.ac.at(?:/apis/entities)?/entity(?:/[^/]+)?/([0-9]+)(?:/detail)?/?$",
      "replace" : "https://pmb.acdh.oeaw.ac.at/entity/\\1/",
