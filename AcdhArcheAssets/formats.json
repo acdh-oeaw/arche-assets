@@ -401,6 +401,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "",
+      "dataType" : "PDF documents",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
       "IANA_reference" : "",
