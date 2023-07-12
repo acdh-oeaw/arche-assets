@@ -107,7 +107,7 @@
          "application/vnd.dbf"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "x-fmt/9x-fmt/8x-fmt/271x-fmt/10x-fmt/272x-fmt/380fmt/373x-fmt/6x-fmt/7x-fmt/242fmt/374",
+      "PRONOM_ID" : "x-fmt/9, x-fmt/8, x-fmt/271, x-fmt/10, x-fmt/272, x-fmt/380, fmt/373, x-fmt/6, x-fmt/7, x-fmt/242, fmt/374",
       "comment" : "Probably file comes in conjunction with a shapefile and is one of three mandatory files used by the shapefile data format. It is used in the specification of the Esri shapefile format with the Esri ArcInfo geographic information system, where a DBF file serves as a storage for various geometrical shape attributes Format is dBase IV. Should be converted to a single-file format like geoJSON or GML",
       "extensions" : [
          "dbf"
@@ -125,7 +125,7 @@
       "Long_term_format" : "",
       "MIME_type" : [application/dxf, image/vnd.dxf],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/63fmt/1394fmt/64fmt/65fmt/66fmt/67fmt/68fmt/69fmt/70fmt/71fmt/72fmt/73fmt/74fmt/80fmt/75fmt/81fmt/76fmt/82fmt/77fmt/83fmt/78fmt/84fmt/79fmt/85fmt/433fmt/1390fmt/435fmt/1391fmt/532fmt/1392fmt/1389fmt/1393",
+      "PRONOM_ID" : "fmt/63, fmt/1394, fmt/64, fmt/65, fmt/66, fmt/67, fmt/68, fmt/69, fmt/70, fmt/71, fmt/72, fmt/73, fmt/74, fmt/80, fmt/75, fmt/81, fmt/76, fmt/82, fmt/77, fmt/83, fmt/78, fmt/84, fmt/79, fmt/85, fmt/433, fmt/1390, fmt/435, fmt/1391, fmt/532, fmt/1392, fmt/1389, fmt/1393",
       "comment" : "",
       "extensions" : [
          "dxf"
@@ -183,7 +183,7 @@
       "Long_term_format" : "restricted",
       "MIME_type" : ["image/gif"],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/3fmt/4",
+      "PRONOM_ID" : "fmt/3, fmt/4",
       "comment" : "",
       "extensions" : [
          "gif"
@@ -206,7 +206,7 @@
       "extensions" : [
          "gml"
       ],
-      "name" : ""
+      "name" : "Geography Markup Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -219,7 +219,7 @@
       "Long_term_format" : "",
       "MIME_type" : [application/octet-stream],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/243fmt/1134",
+      "PRONOM_ID" : "fmt/243, fmt/1134",
       "comment" : "XML Schema",
       "extensions" : [
          "gpx"
@@ -237,7 +237,7 @@
       "Long_term_format" : "",
       "MIME_type" : [application/xhtml+xml, text/html],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/96fmt/97fmt/98fmt/99fmt/100fmt/471fmt/102fmt/103",
+      "PRONOM_ID" : "fmt/96, fmt/97, fmt/98, fmt/99, fmt/100, fmt/471, fmt/102, fmt/103",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text/html",
       "extensions" : [
          "html"
@@ -257,7 +257,7 @@
          "image/jpeg"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/41fmt/42fmt/43fmt/44x-fmt/398x-fmt/390x-fmt/391fmt/112",
+      "PRONOM_ID" : "fmt/41, fmt/42, fmt/43, fmt/44, x-fmt/398, x-fmt/390, x-fmt/391, fmt/112",
       "comment" : "",
       "extensions" : [
          "jpg",
@@ -276,7 +276,7 @@
       "Long_term_format" : "",
       "MIME_type" : [application/vnd.google-earth.kmz , application/vnd.google-earth.kml+xml],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/244fmt/724",
+      "PRONOM_ID" : "fmt/244, fmt/724",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/kml",
       "extensions" : [
          "kml"
@@ -287,7 +287,7 @@
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "",
-      "Further_specifications" : "ZIP Format",
+      "Further_specifications" : "",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
@@ -295,7 +295,7 @@
       "MIME_type" : [application/vnd.google-earth.kmz , application/vnd.google-earth.kml+xml],
       "Magic_number" : "",
       "PRONOM_ID" : "",
-      "comment" : "",
+      "comment" : "ZIP Format, application/zip",
       "extensions" : [
          "kmz"
       ],
@@ -351,7 +351,7 @@
       "Long_term_format" : "",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "fdd000508",
+      "PRONOM_ID" : "fmt/1211",
       "comment" : "",
       "extensions" : [
          "mtl"
@@ -369,7 +369,7 @@
       "Long_term_format" : "",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "fdd000507",
+      "PRONOM_ID" : "fmt/1210",
       "comment" : "",
       "extensions" : [
          "obj"
@@ -388,7 +388,7 @@
       "MIME_type" : [],
       "Magic_number" : "",
       "PRONOM_ID" : "",
-      "comment" : "",
+      "comment" : "application/text ??",
       "extensions" : [
          "osm"
       ],
@@ -406,7 +406,7 @@
       "Long_term_format" : "",
       "MIME_type" : ["application/pdf"],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/276fmt/14fmt/15fmt/16fmt/17fmt/18fmt/19fmt/20fmt/1129fmt/95fmt/354fmt/476fmt/477fmt/478fmt/479fmt/480fmt/481fmt/144fmt/145fmt/157fmt/146fmt/147fmt/158fmt/148fmt/488fmt/489fmt/490fmt/491fmt/492fmt/493fmt/1451",
+      "PRONOM_ID" : "fmt/276,fmt/14, fmt/15, fmt/16, fmt/17, fmt/18, fmt/19, fmt/20, fmt/1129, fmt/95, fmt/354, fmt/476, fmt/477, fmt/478, fmt/479, fmt/480, fmt/481, fmt/144, fmt/145, fmt/157, fmt/146, fmt/147, fmt/158, fmt/148, fmt/488, fmt/489, fmt/490, fmt/491, fmt/492, fmt/493, fmt/1451",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text/pdf",
       "extensions" : [
          "pdf"
@@ -447,7 +447,7 @@
          "image/png"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "fmt/13fmt/12fmt/11",
+      "PRONOM_ID" : "fmt/13, fmt/12, fmt/11",
       "comment" : "",
       "extensions" : [
          "png"
@@ -537,30 +537,30 @@
       "Long_term_format" : "unsure",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/319",
       "comment" : "",
       "extensions" : [
          "sbn"
       ],
-      "name" : "SiRF binary logging (non-NMEA)"
+      "name" : "ESRI Spatial Index File"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "",
-      "Further_specifications" : "",
+      "Further_specifications" : "http://mark0.net/soft-seqbox-e.html, https://github.com/MarcoPon/SeqBox",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "unsure",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/319",
       "comment" : "",
       "extensions" : [
-         "sbx"
+         "sbx, seqbox"
       ],
-      "name" : ""
+      "name" : "Sequenced Box Container"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
