@@ -8,14 +8,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [text/plain],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : [
          "asc"
       ],
-      "name" : ""
+      "name" : "	ASC (BRL-CAD Geometry)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -26,14 +26,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/x-bibtex],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : [
          "bib"
       ],
-      "name" : ""
+      "name" : "BibTex"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -44,14 +44,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "unsure",
-      "MIME_type" : [],
+      "MIME_type" : [application/octet-stream],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : [
          "cpg"
       ],
-      "name" : ""
+      "name" : "Manga Studio"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -62,9 +62,7 @@
       "IANA_template" : "https://www.iana.org/assignments/media-types/text/csv",
       "Informal_MIME_type" : [],
       "Long_term_format" : "yes",
-      "MIME_type" : [
-         "text/csv"
-      ],
+      "MIME_type" : ["text/csv"],
       "Magic_number" : "",
       "PRONOM_ID" : "x-fmt/18",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/tabular",
@@ -87,7 +85,7 @@
          "application/dbf"
       ],
       "Long_term_format" : "no",
-      "MIME_type" : [],
+      "MIME_type" : [application/dbf],
       "Magic_number" : "",
       "PRONOM_ID" : "X-fmt/8, x-fmt/9, x-fmt/10, x-fmt/271, x-fmt/272",
       "comment" : "If pure database use another format (e.g. sql).",
@@ -109,7 +107,7 @@
          "application/vnd.dbf"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "x-fmt/9x-fmt/8x-fmt/271x-fmt/10x-fmt/272x-fmt/380fmt/373x-fmt/6x-fmt/7x-fmt/242fmt/374",
       "comment" : "Probably file comes in conjunction with a shapefile and is one of three mandatory files used by the shapefile data format. It is used in the specification of the Esri shapefile format with the Esri ArcInfo geographic information system, where a DBF file serves as a storage for various geometrical shape attributes Format is dBase IV. Should be converted to a single-file format like geoJSON or GML",
       "extensions" : [
          "dbf"
@@ -125,9 +123,9 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/dxf, image/vnd.dxf],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/63fmt/1394fmt/64fmt/65fmt/66fmt/67fmt/68fmt/69fmt/70fmt/71fmt/72fmt/73fmt/74fmt/80fmt/75fmt/81fmt/76fmt/82fmt/77fmt/83fmt/78fmt/84fmt/79fmt/85fmt/433fmt/1390fmt/435fmt/1391fmt/532fmt/1392fmt/1389fmt/1393",
       "comment" : "",
       "extensions" : [
          "dxf"
@@ -185,7 +183,7 @@
       "Long_term_format" : "restricted",
       "MIME_type" : ["image/gif"],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/3fmt/4",
       "comment" : "",
       "extensions" : [
          "gif"
@@ -201,7 +199,7 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [text/xml],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
@@ -219,14 +217,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/octet-stream],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
-      "comment" : "",
+      "PRONOM_ID" : "fmt/243fmt/1134",
+      "comment" : "XML Schema",
       "extensions" : [
          "gpx"
       ],
-      "name" : ""
+      "name" : "GPS Exchange Format"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -237,11 +235,9 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [
-         "text/html"
-      ],
+      "MIME_type" : [application/xhtml+xml, text/html],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/96fmt/97fmt/98fmt/99fmt/100fmt/471fmt/102fmt/103",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text/html",
       "extensions" : [
          "html"
@@ -261,7 +257,7 @@
          "image/jpeg"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/41fmt/42fmt/43fmt/44x-fmt/398x-fmt/390x-fmt/391fmt/112",
       "comment" : "",
       "extensions" : [
          "jpg",
@@ -278,32 +274,32 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/vnd.google-earth.kmz , application/vnd.google-earth.kml+xml],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/244fmt/724",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/kml",
       "extensions" : [
          "kml"
       ],
-      "name" : ""
+      "name" : "Keyhole Markup Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "",
-      "Further_specifications" : "",
+      "Further_specifications" : "ZIP Format",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/vnd.google-earth.kmz , application/vnd.google-earth.kml+xml],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : [
          "kmz"
       ],
-      "name" : ""
+      "name"Keyhole Markup Language ZIP-compressed"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -318,7 +314,7 @@
          "text/markdown"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/1149",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text/markdown",
       "extensions" : [
          "markdown",
@@ -335,9 +331,9 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [video/x-matroska],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/569",
       "comment" : "",
       "extensions" : [
          "mkv"
@@ -355,12 +351,12 @@
       "Long_term_format" : "",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fdd000508",
       "comment" : "",
       "extensions" : [
          "mtl"
       ],
-      "name" : ""
+      "name" : "Wavefront Material Template Library"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -373,7 +369,7 @@
       "Long_term_format" : "",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fdd000507",
       "comment" : "",
       "extensions" : [
          "obj"
@@ -384,7 +380,7 @@
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "",
-      "Further_specifications" : "",
+      "Further_specifications" : "Geospatial Data",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
@@ -396,7 +392,7 @@
       "extensions" : [
          "osm"
       ],
-      "name" : ""
+      "name" : "Open Street Map"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -410,7 +406,7 @@
       "Long_term_format" : "",
       "MIME_type" : ["application/pdf"],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/276fmt/14fmt/15fmt/16fmt/17fmt/18fmt/19fmt/20fmt/1129fmt/95fmt/354fmt/476fmt/477fmt/478fmt/479fmt/480fmt/481fmt/144fmt/145fmt/157fmt/146fmt/147fmt/158fmt/148fmt/488fmt/489fmt/490fmt/491fmt/492fmt/493fmt/1451",
       "comment" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text/pdf",
       "extensions" : [
          "pdf"
@@ -451,7 +447,7 @@
          "image/png"
       ],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/13fmt/12fmt/11",
       "comment" : "",
       "extensions" : [
          "png"
@@ -485,14 +481,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/octet-stream],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/1831",
       "comment" : "",
       "extensions" : [
          "prj"
       ],
-      "name" : ""
+      "name" : "General Project File"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -503,14 +499,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/x-qgis],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : [
          "qgs"
       ],
-      "name" : ""
+      "name" : "QGIS Project"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -528,7 +524,7 @@
       "extensions" : [
          "qpj"
       ],
-      "name" : ""
+      "name" : "Quantum GIS Project File"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -546,7 +542,7 @@
       "extensions" : [
          "sbn"
       ],
-      "name" : ""
+      "name" : "SiRF binary logging (non-NMEA)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -575,14 +571,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "unsure",
-      "MIME_type" : [],
+      "MIME_type" : [application/x-qgis],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "x-fmt/235fmt/277",
       "comment" : "",
       "extensions" : [
          "shp"
       ],
-      "name" : ""
+      "name" : "Shapefile"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -593,14 +589,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "unsure",
-      "MIME_type" : [],
+      "MIME_type" : [application/x-qgis],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fdd000280fdd000326",
       "comment" : "",
       "extensions" : [
          "shx"
       ],
-      "name" : ""
+      "name" : "Shapefile Compiled"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -613,7 +609,7 @@
       "Long_term_format" : "",
       "MIME_type" : [],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/161fmt/995fmt/1196",
       "comment" : "",
       "extensions" : [
          "siard"
@@ -631,7 +627,7 @@
       "Long_term_format" : "",
       "MIME_type" : ["image/svg+xml"],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "fmt/91fmt/92x-fmt/109fmt/413",
       "comment" : "",
       "extensions" : [
          "svg"
@@ -650,11 +646,11 @@
       "MIME_type" : [],
       "Magic_number" : "",
       "PRONOM_ID" : "",
-      "comment" : "",
+      "comment" : "Audio and Music Tablature",
       "extensions" : [
          "tab"
       ],
-      "name" : ""
+      "name" : "ASCII tab"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -665,14 +661,14 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : [application/x-tex],
       "Magic_number" : "",
       "PRONOM_ID" : "",
-      "comment" : "",
+      "comment" : "Markup Language for Typography",
       "extensions" : [
          "tex"
       ],
-      "name" : ""
+      "name" : "TeX"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
