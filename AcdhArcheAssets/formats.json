@@ -1,7 +1,7 @@
 [
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
-      "ARCHE_docs" : "test",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "",
       "DataType" : "",
       "Further_specifications" : "",
@@ -54,13 +54,13 @@
       "extensions" : [
          "cpg"
       ],
-      "name" : "Manga Studio"
+      "name" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/tabular"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
-      "ARCHE_docs" : "Tables & Spreadsheets",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
-      "DataType" : "Text file",
+      "DataType" : "Tables & Spreadsheets",
       "formatVersion" : "",
       "LoCFDD": "fdd000323",
       "Further_specifications" : "",
@@ -68,7 +68,7 @@
       "IANA_template" : "https://www.iana.org/assignments/media-types/text/csv",
       "Informal_MIME_type" : [],
       "Long_term_format" : "yes",
-      "MIME_type" : ["pplication/csv, text/x-csv, application/x-csv, text/x-comma-separated-values, text/comma-separated-values"],
+      "MIME_type" : ["application/csv"],
       "Magic_number" : "",
       "PRONOM_ID" : "x-fmt/18",
       "comment" : "",
@@ -80,9 +80,9 @@
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
-      "ARCHE_docs" : "Databases",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
-      "DataType" : "Text file",
+      "DataType" : "Databases",
       "Further_specifications" : "",
       "IANA_reference" : "",
       "IANA_template" : "https://www.iana.org/assignments/media-types/application/vnd.dbf",
@@ -143,7 +143,7 @@
       "extensions" : [
          "dxf"
       ],
-      "name" : "Drawing Interchange File"
+      "name" : "Drawing Interchange Format (Autodesk)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -189,9 +189,9 @@
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
-      "ARCHE_docs" : "Images (Raster)",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "accepted",
-      "DataType" : "Image format",
+      "DataType" : "Images (Raster)",
       "Further_specifications" : "",
       "IANA_reference" : "RFC2045, RFC2046",
       "IANA_template" : "",
@@ -252,11 +252,11 @@
       "formatVersion" : "",
       "LoCFDD": "",
       "Further_specifications" : "",
-      "IANA_reference" : "W3C",
+      "IANA_reference" : "https://html.spec.whatwg.org/",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [text/html, application/xhtml+xml],
+      "MIME_type" : "[text/html, application/xhtml+xml]",
       "Magic_number" : "",
       "PRONOM_ID" : "fmt/96, fmt/97, fmt/98, fmt/99, fmt/100, fmt/471, fmt/102, fmt/103",
       "comment" : "",
@@ -320,7 +320,7 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [application/vnd.google-earth.kmz , application/vnd.google-earth.kml+xml],
+      "MIME_type" : [application/vnd.google-earth.kml+xml],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "ZIP Format, application/zip",
@@ -437,7 +437,7 @@
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
       "ARCHE_docs" : "PDF",
       "ARCHE_conformance": "preferred",
-      "DataType" : "PDF",
+      "DataType" : "PDF documents",
       "formatVersion" : "PDF family",
       "LoCFDD": "fdd000030",
       "Further_specifications" : "http://fileformats.archiveteam.org/wiki/PDF",
@@ -457,9 +457,9 @@
    },
    {
    "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
-      "ARCHE_docs" : "PDF Documents",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
-      "DataType" : "PDF",
+      "DataType" : "PDF Documents",
       "formatVersion" : "PDF 1.0",
       "LoCFDD": "fdd000316",
       "Further_specifications" : "http://fileformats.archiveteam.org/wiki/PDF",
@@ -1484,7 +1484,7 @@
       "extensions" : [
          "svg"
       ],
-      "name" : "Scalable Vector (SVG) v. 1.1"
+      "name" : "Scalable Vector Graphics 1.1, uncompressed"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1499,7 +1499,7 @@
       "MIME_type" : [],
       "Magic_number" : "",
       "PRONOM_ID" : "",
-      "comment" : "Audio and Music Tablature",
+      "comment" : "",
       "extensions" : [
          "tab"
       ],
@@ -1522,7 +1522,7 @@
       "extensions" : [
          "tex"
       ],
-      "name" : "TeX"
+      "name" : "LaTeX"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1541,7 +1541,7 @@
       "extensions" : [
          "tfw"
       ],
-      "name" : "ESI World File Format"
+      "name" : "Esri World File Format"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1583,7 +1583,7 @@
          "tif",
          "tiff"
       ],
-      "name" : "Tag(ged) Image File FormatBaseline v. 6, uncompressed"
+      "name" : "Tag(ged) Image File Format Baseline v. 6, uncompressed"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -1654,7 +1654,7 @@
       "extensions" : [
          "xml"
       ],
-      "name" : "Extensible Markup Language"
+      "name" : "eXtensible Markup Language"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -1966,7 +1966,7 @@
       "PRONOM_ID" : "x-fmt/147",
       "comment" : "",
       "extensions" : ["db"],
-      "name" : "Paradox Database Table"
+      "name" : "binary export format for databases"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
@@ -1981,9 +1981,9 @@
       "MIME_type" : [],
       "Magic_number" : "",
       "PRONOM_ID" : "",
-      "comment" : "",
+      "comment" : "binary export formats for databases",
       "extensions" : ["dmp"],
-      "name" : "binary export formats for databases"
+      "name" : ""
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
@@ -2002,7 +2002,7 @@
       "PRONOM_ID" : "fmt/40",
       "comment" : "",
       "extensions" : ["doc"],
-      "name" : "MS Word Doc"
+      "name" : "Microsoft Word Document"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
@@ -2037,7 +2037,7 @@
       "PRONOM_ID" : "mt/531",
       "comment" : "",
       "extensions" : ["dwg"],
-      "name" : "Drawing Interchange(Autodesk)"
+      "name" : "Drawing (Autodesk)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
