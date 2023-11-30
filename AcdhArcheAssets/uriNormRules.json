@@ -8,7 +8,7 @@
   },
   {
      "name"    : "gnd",
-     "match"   : "^https?://(?:[^.]*[.])?d-nb[.]info/gnd/([-A-Z0-9]+)(?:/.*)?$",
+     "match"   : "^https?://(?:[^.]*[.])?d-nb[.]info/(?:gnd/)?([-A-Z0-9]+)(?:/.*)?$",
      "replace" : "https://d-nb.info/gnd/\\1",
      "resolve" : "https://d-nb.info/gnd/\\1/about/lds.ttl",
      "format"  : "text/turtle"
