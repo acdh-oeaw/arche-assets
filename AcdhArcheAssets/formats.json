@@ -1672,6 +1672,22 @@
       "extensions" : ["mht", "mhtml"],
       "name" : "MIME Encapsulation of Aggregate HTML Documents"
    },
+    {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/model",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "accepted",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : ["text/xml"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "",
+      "comment" : "ODD is the format used internally by the Text Encoding Initiative for the TEI technical standard.",
+      "extensions" : ["odd"],
+      "name" : "One Document Does it All"
+   },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
