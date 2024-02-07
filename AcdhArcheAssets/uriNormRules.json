@@ -127,9 +127,9 @@
   },
   {
      "name"    : "arche-dev",
-     "match"   : "^https://arche-dev.acdh-dev.oeaw.ac.at/api/([0-9]+)(?:/.*)?$",
-     "replace" : "https://arche-dev.acdh-dev.oeaw.ac.at/api/\\1",
-     "resolve" : "https://arche-dev.acdh-dev.oeaw.ac.at/api/\\1/metadata?readMode=resource",
+     "match"   : "^https://arche-(dev|design).acdh-dev.oeaw.ac.at/api/([0-9]+)(?:/.*)?$",
+     "replace" : "https://arche-\\1.acdh-dev.oeaw.ac.at/api/\\2",
+     "resolve" : "https://arche-\\1.acdh-dev.oeaw.ac.at/api/\\2/metadata?readMode=resource",
      "format"  : "application/n-triples"
   },
   {
