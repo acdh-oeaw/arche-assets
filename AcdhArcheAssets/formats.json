@@ -20,6 +20,24 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "https://www.iana.org/assignments/media-types/application/tei+xml",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : ["application/tei+xml"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "x-fmt/1474, x-fmt/1475, x-fmt/1476, x-fmt/1477",
+      "comment" : "TEI-XML",
+      "extensions" : [
+         "xml"
+      ],
+      "name" : ""
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "",
       "Further_specifications" : "",
       "IANA_reference" : "",
