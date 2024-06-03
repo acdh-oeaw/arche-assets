@@ -1841,7 +1841,7 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : [],
+      "MIME_type" : ["application/xml"],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
