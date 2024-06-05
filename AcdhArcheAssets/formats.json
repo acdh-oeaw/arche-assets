@@ -2,6 +2,24 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "https://www.iana.org/assignments/media-types/application/json",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : ["application/json"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "",
+      "comment" : "",
+      "extensions" : [
+         "json"
+      ],
+      "name" : ""
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "",
       "Further_specifications" : "",
       "IANA_reference" : "",
