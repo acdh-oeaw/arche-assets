@@ -5,15 +5,15 @@
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
       "IANA_reference" : "",
-      "IANA_template" : "https://www.iana.org/assignments/media-types/application/json",
+      "IANA_template" : "https://www.iana.org/assignments/media-types/text/turtle",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
-      "MIME_type" : ["application/json"],
+      "MIME_type" : ["text/turtle"],
       "Magic_number" : "",
       "PRONOM_ID" : "",
       "comment" : "",
       "extensions" : [
-         "json"
+         "ttl"
       ],
       "name" : ""
    },
