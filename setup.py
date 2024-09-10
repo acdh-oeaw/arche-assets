@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="acdh_arche-assets",
-    version="0.2.0",
+    version="3.18.0",
     author="Mateusz Żółtak",
     author_email="mzoltak@oeaw.ac.at",
     description="A set of static assets used (mainly) for ARCHE data preprocessing",
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/acdh-oeaw/arche-assets",
     packages=setuptools.find_packages(),
-    setup_requires=[
+    install_requires=[
         "importlib-resources>=6.4.5,<7",
     ],
     package_data={"AcdhArcheAssets": ["uriNormRules.json", "formats.json"]},
