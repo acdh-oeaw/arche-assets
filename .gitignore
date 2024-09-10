@@ -13,3 +13,5 @@ htmlcov
 .coverage
 .vscode/settings.json
 *.ipynb
+venv
+.eggs/

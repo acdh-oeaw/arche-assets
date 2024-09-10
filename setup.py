@@ -14,11 +14,14 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/acdh-oeaw/arche-assets",
     packages=setuptools.find_packages(),
-    package_data={'AcdhArcheAssets': ['uriNormRules.json', 'formats.json']},
+    setup_requires=[
+        "importlib-resources>=6.4.5,<7",
+    ],
+    package_data={"AcdhArcheAssets": ["uriNormRules.json", "formats.json"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    include_package_data=True
+    include_package_data=True,
 )

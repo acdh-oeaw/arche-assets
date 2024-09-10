@@ -1,19 +1,22 @@
+import importlib_resources
 import json
-import pkg_resources
 
 
 def get_formats():
-    """ returns a list dicts providing info about file formats and mime types
+    """returns a list dicts providing info about file formats and mime types
 
     :return: list dicts providing info about file formats and mime types
     :rtype: list
 
     """
-    return json.loads(pkg_resources.resource_string(__name__, 'formats.json'))
+    ref = importlib_resources.files("AcdhArcheAssets").joinpath("formats.json")
+    with ref.open("r") as fp:
+        data = json.load(fp)
+    return data
 
 
 def get_by_mtype(mtype):
-    """ returns a list of mapping dicts for the provided mime type
+    """returns a list of mapping dicts for the provided mime type
     :param mtype: A mime type
     :type mtype: str
 
@@ -23,12 +26,12 @@ def get_by_mtype(mtype):
     """
 
     formats = get_formats()
-    matches = [x for x in formats if mtype in x['MIME_type']]
+    matches = [x for x in formats if mtype in x["MIME_type"]]
     return matches
 
 
 def get_by_extension(extension):
-    """ returns a list of mapping dicts for the provided extension
+    """returns a list of mapping dicts for the provided extension
     :param extension: A extension
     :type extension: str
 
@@ -38,5 +41,5 @@ def get_by_extension(extension):
     """
 
     formats = get_formats()
-    matches = [x for x in formats if extension in x['extensions']]
+    matches = [x for x in formats if extension in x["extensions"]]
     return matches

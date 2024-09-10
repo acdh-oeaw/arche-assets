@@ -1,1 +1,1 @@
-__all__ = ['AcdhUriNormRules']
+__all__ = ["AcdhUriNormRules"]
