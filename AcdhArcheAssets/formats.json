@@ -1884,5 +1884,23 @@
       "comment" : "",
       "extensions" : ["xsd"],
       "name" : "XML Schema definition"
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "yes",
+      "MIME_type" : ["application/xml"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "",
+      "comment" : "",
+      "extensions" : [
+         "gexf"
+      ],
+      "name" : "Graph Exchange XML Format"
    }
 ]
