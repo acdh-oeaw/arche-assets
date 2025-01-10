@@ -66,7 +66,7 @@
      "name"    : "viaf",
      "match"   : "^https?://(?:[^.]*[.])?viaf[.]org/viaf/([0-9]+)(/.*)?$",
      "replace" : "http://viaf.org/viaf/\\1",
-     "resolve" : "https://viaf.org/viaf/\\1/",
+     "resolve" : "https://viaf.org/viaf/\\1",
      "format"  : "application/rdf+xml"
   },
   {
