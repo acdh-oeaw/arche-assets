@@ -384,6 +384,24 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "https://www.iana.org/assignments/media-types/model/gltf-binary",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : ["model/gltf-binary"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "fmt/1316",
+      "comment" : "",
+      "extensions" : [
+         "glb"
+      ],
+      "name" : "GL Transmission Format (Binary)"
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
+      "ARCHE_docs" : "",
       "ARCHE_conformance": "",
       "Further_specifications" : "",
       "IANA_reference" : "",
@@ -402,7 +420,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
-      "ARCHE_conformance": "preferred",
+      "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
       "IANA_reference" : "",
       "IANA_template" : "",
@@ -457,7 +475,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
-      "ARCHE_conformance": "preferred",
+      "ARCHE_conformance": "accepted",
       "Further_specifications" : "http://paulbourke.net/dataformats/ply/",
       "IANA_reference" : "",
       "IANA_template" : "",
@@ -789,7 +807,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
-      "ARCHE_conformance": "preferred",
+      "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
       "IANA_reference" : "",
       "IANA_template" : "",
@@ -1600,7 +1618,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
       "ARCHE_docs" : "",
-      "ARCHE_conformance": "preferred",
+      "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
       "IANA_reference" : "",
       "IANA_template" : "",
