@@ -13,8 +13,6 @@ Set of static assets used (mainly) for ARCHE data preprocessing or ARCHE informa
   (stored in `AcdhArcheAssets/uriNormRules.json`)
 * Description of input data formats accepted by [ARCHE](https://arche.acdh.oeaw.ac.at).\
   (stored in `AcdhArcheAssets/formats.json`)
-* Static files used by the ARCHE being published as a GitHub Pages
-  (e.g. project funder logos)
 
 The repository provides also Python 3 and PHP bindings for accessing those assets.
 
@@ -105,11 +103,6 @@ Further information is provided as well.
    * unsure - status remains to be evaluated
 * archeDocs: Link to a place with more information for the format.
 * comment: Any other noteworthy information not stated elsewhere.
-
-## Static files
-
-The content of the `docs` directory is published on https://acdh-oeaw.github.io/arche-assets/,
-e.g. https://acdh-oeaw.github.io/arche-assets/logos/EU_nextgen.png.
 
 # Developement (Python)
 
