@@ -60,7 +60,7 @@
      "match"   : "^https?://(?:[^.]*[.])?pleiades[.]stoa[.]org/places/([0-9]+)(/.*)?$",
      "replace" : "https://pleiades.stoa.org/places/\\1",
      "resolve" : "https://pleiades.stoa.org/places/\\1",
-     "format"  : "application/rdf+xml"
+     "format"  : "application/json"
   },
   {
      "name"    : "viaf",
