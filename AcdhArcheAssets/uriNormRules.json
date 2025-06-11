@@ -102,7 +102,7 @@
      "match"   : "^https?://id.loc.gov/rwo/agents/n(o?[0-9]+)([.][a-z]+)?$",
      "replace" : "http://id.loc.gov/rwo/agents/n\\1",
      "resolve" : "https://id.loc.gov/rwo/agents/n\\1.nt",
-     "format"  : "application/n-triples"
+     "format"  : "text/plain"
   },
   {
      "name"    : "pmb",
