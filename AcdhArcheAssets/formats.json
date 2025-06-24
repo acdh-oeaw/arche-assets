@@ -514,6 +514,26 @@
       "name" : "Portable Network Graphics"
    },
    {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "accepted",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : [
+         "image/webp"
+      ],
+      "Magic_number" : "",
+      "PRONOM_ID" : "",
+      "comment" : "",
+      "extensions" : [
+         "webp"
+      ],
+      "name" : "Web Picture"
+   },
+   {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "",
