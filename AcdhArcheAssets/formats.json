@@ -41,6 +41,25 @@
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
       "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : ["application/mei+xml"],
+      "Long_term_format" : "",
+      "MIME_type" : [],
+      "Magic_number" : "",
+      "PRONOM_ID" : "fmt/965",
+      "comment" : "MEI-XML",
+      "extensions" : [
+         "xml",
+         "mei"
+      ],
+      "name" : "Music Encoding Initiative XML"
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
       "IANA_template" : "https://www.iana.org/assignments/media-types/application/tei+xml",
       "Informal_MIME_type" : [],
       "Long_term_format" : "",
