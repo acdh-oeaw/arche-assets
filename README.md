@@ -8,10 +8,11 @@
 [![phpunit](https://github.com/acdh-oeaw/arche-assets/actions/workflows/php.yml/badge.svg)](https://github.com/acdh-oeaw/arche-assets/actions/workflows/php.yml)
 [![License](https://poser.pugx.org/acdh-oeaw/arche-assets/license)](https://packagist.org/packages/acdh-oeaw/arche-assets)
 
-Set of static assets used (mainly) for ARCHE data preprocessing or ARCHE information pages:
-* URI normalization rules used within the [ACDH](https://www.oeaw.ac.at/acdh/).\
+Set of static assets used (mainly) for ARCHE data preprocessing and ARCHE information pages:
+
+* URI normalization rules used by the [ACDH](https://www.oeaw.ac.at/acdh/).\
   (stored in `AcdhArcheAssets/uriNormRules.json`)
-* Description of input data formats accepted by [ARCHE](https://arche.acdh.oeaw.ac.at).\
+* Description of input data formats accepted by the [ARCHE](https://arche.acdh.oeaw.ac.at).\
   (stored in `AcdhArcheAssets/formats.json`)
 
 The repository provides also Python 3 and PHP bindings for accessing those assets.
@@ -51,11 +52,11 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 
 ## PHP
 
-* Install using using [composer](https://getcomposer.org/doc/00-intro.md):
+* Install using the [composer](https://getcomposer.org/doc/00-intro.md):
   ```bash
   composer require -oeaw/arche-assets
   ```
-* Usage with
+* Use with
   ```php
   require_once 'vendor/autoload.php';
 
@@ -74,10 +75,10 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 Each rule consists of five properties:
 
 * `name`: a rule name
-* `match`: a regular expression matching a given URI namespace
-* `replace`: a regular expression replace expression normalizing an URI in a given namespace
-* `resolve`: a regular expression replace expression transforming an URI in a given namespace to an URL fetching an RDF data
-* `format`: a RDF serialization format to be requested while resolving the URL produced using the `resolve` field
+* `match`: a regular expression matching rule's URI namespace
+* `replace`: a regex-replace expression transforming an URI in a rule's namespace into its ACDH-canonical form
+* `resolve`: a regex-replace expression transforming an URI in a rule's namespace into an URL fetching an RDF data
+* `format`: an RDF serialization format to be requested while resolving the URL produced using the `resolve` field
 
 ## Formats
 
