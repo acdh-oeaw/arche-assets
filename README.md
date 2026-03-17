@@ -42,7 +42,7 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
   # "1232324343"
 
 
-  from ArcheAssets.file_formats import get_formats, get_by_mtype, get_by_extension
+  from AcdhArcheAssets.file_formats import get_formats, get_by_mtype, get_by_extension
 
   formats = get_formats()
   matching_mapping = get_by_mtype('image/png')
@@ -54,18 +54,18 @@ The repository provides also Python 3 and PHP bindings for accessing those asset
 
 * Install using the [composer](https://getcomposer.org/doc/00-intro.md):
   ```bash
-  composer require -oeaw/arche-assets
+  composer require acdh-oeaw/arche-assets
   ```
 * Use with
   ```php
   require_once 'vendor/autoload.php';
 
-  print_r(Oeaw\UriNormRules::getRules());
-  print_r(Oeaw\UriNormRules::getRules(['viaf', 'gnd']));
+  print_r(acdhOeaw\UriNormRules::getRules());
+  print_r(acdhOeaw\UriNormRules::getRules(['viaf', 'gnd']));
 
-  print_r(Oeaw\ArcheFileFormats::getAll();
-  print_r(Oeaw\ArcheFileFormats::getByMime('application/json');
-  print_r(Oeaw\ArcheFileFormats::getByExtension('application/json');
+  print_r(acdhOeaw\ArcheFileFormats::getAll());
+  print_r(acdhOeaw\ArcheFileFormats::getByMime('application/json'));
+  print_r(acdhOeaw\ArcheFileFormats::getByExtension('json'));
   ```
 
 # Description of assets
