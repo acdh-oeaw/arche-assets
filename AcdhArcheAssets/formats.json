@@ -1,5 +1,37 @@
 [
    {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/software",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : ["text/plain"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "fmt/938",
+      "comment" : "",
+      "extensions" : ["py"],
+      "name" : "Python source code"
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/software",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "",
+      "MIME_type" : ["text/plain"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "fmt/1678",
+      "comment" : "",
+      "extensions" : ["m"],
+      "name" : "MATLAB source code"
+   },
+   {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
