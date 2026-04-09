@@ -187,5 +187,12 @@
      "replace" : "https://ror.org/\\1",
      "resolve" : "https://api.ror.org/v2/organizations/\\1",
      "format"  : "application/json"
+  },
+  {
+     "name"    : "rism",
+     "match"   : "^https?://rism.online/(institutions|people)/([0-9]+)$",
+     "replace" : "https://rism.online/\\1/\\2",
+     "resolve" : "https://rism.online/\\1/\\2",
+     "format"  : "application/n-triples"
   }
 ]
