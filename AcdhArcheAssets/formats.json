@@ -1,21 +1,5 @@
 [
    {
-      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/???",
-      "ARCHE_docs" : "",
-      "ARCHE_conformance": "preferred",
-      "Further_specifications" : "",
-      "IANA_reference" : "",
-      "IANA_template" : "",
-      "Informal_MIME_type" : [],
-      "Long_term_format" : "",
-      "MIME_type" : ["application/xml", "text/xml"],
-      "Magic_number" : "",
-      "PRONOM_ID" : "",
-      "comment" : "",
-      "extensions" : ["rng"],
-      "name" : "RELAX NG schema"
-   },
-   {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/software",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
@@ -1513,7 +1497,7 @@
     {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/model",
       "ARCHE_docs" : "",
-      "ARCHE_conformance": "accepted",
+      "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
       "IANA_reference" : "",
       "IANA_template" : "",
