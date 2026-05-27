@@ -194,5 +194,12 @@
      "replace" : "https://rism.online/\\1/\\2",
      "resolve" : "https://rism.online/\\1/\\2",
      "format"  : "application/n-triples"
+  },
+  {
+     "name"    : "manuscripta",
+     "match"   : "^https://manuscripta.at/.*$",
+     "replace" : "\\0",
+     "resolve" : "unresolvable",
+     "format"  : "application/json"
   }
 ]
