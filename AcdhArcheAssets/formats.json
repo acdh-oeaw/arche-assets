@@ -1975,7 +1975,7 @@
       "name" : "XML Schema definition"
    },
    {
-      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/text",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/model",
       "ARCHE_docs" : "",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
