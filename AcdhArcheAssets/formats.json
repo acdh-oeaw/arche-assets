@@ -1985,7 +1985,7 @@
       "Long_term_format" : "",
       "MIME_type" : ["application/xml"],
       "Magic_number" : "",
-      "PRONOM_ID" : "",
+      "PRONOM_ID" : "x-fmt/280",
       "comment" : "",
       "extensions" : ["sch"],
       "name" : "Schematron"
