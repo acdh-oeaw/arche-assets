@@ -513,7 +513,7 @@
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
-      "Long_term_format" : "",
+      "Long_term_format" : "yes",
       "MIME_type" : ["application/pdf"],
       "Magic_number" : "",
       "PRONOM_ID" : "",
@@ -521,7 +521,7 @@
       "extensions" : [
          "pdf"
       ],
-      "name" : "other PDF variants"
+      "name" : "PDF/A"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/3dData",
@@ -2007,5 +2007,41 @@
          "gexf"
       ],
       "name" : "Graph Exchange XML Format"
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/annotation",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "preferred",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "yes",
+      "MIME_type" : ["text/x-eaf+xml", "text/xml"],
+      "Magic_number" : "",
+      "PRONOM_ID" : "fmt/1543",
+      "comment" : "",
+      "extensions" : [
+         "eaf"
+      ],
+      "name" : "ELAN Annotation Format (EAF)"
+   },
+   {
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/annotation",
+      "ARCHE_docs" : "",
+      "ARCHE_conformance": "accepted",
+      "Further_specifications" : "",
+      "IANA_reference" : "",
+      "IANA_template" : "",
+      "Informal_MIME_type" : [],
+      "Long_term_format" : "no",
+      "MIME_type" : [],
+      "Magic_number" : "",
+      "PRONOM_ID" : "fmt/1544",
+      "comment" : "ELAN settings file for a specific annotation file. Not strictly necessary to preserve but can be archived along with EAF for convenience.",
+      "extensions" : [
+         "pfsx"
+      ],
+      "name" : " ELAN Preference File (PFSX)"
    }
 ]
