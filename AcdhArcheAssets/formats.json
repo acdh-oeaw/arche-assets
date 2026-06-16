@@ -2035,7 +2035,7 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "no",
-      "MIME_type" : [],
+      "MIME_type" : ["application/pfsx+xml"],
       "Magic_number" : "",
       "PRONOM_ID" : "fmt/1544",
       "comment" : "ELAN settings file for a specific annotation file. Not strictly necessary to preserve but can be archived along with EAF for convenience.",
