@@ -2017,7 +2017,7 @@
       "IANA_template" : "",
       "Informal_MIME_type" : [],
       "Long_term_format" : "yes",
-      "MIME_type" : ["text/eaf+xml"],
+      "MIME_type" : ["application/eaf+xml"],
       "Magic_number" : "",
       "PRONOM_ID" : "fmt/1543",
       "comment" : "",
